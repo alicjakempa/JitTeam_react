@@ -1,6 +1,9 @@
 import React from 'react';
 import Menu from './components/Menu';
 import FirstSection from './components/FirstSection';
+import SecondSection from './components/SecondSection';
+import ThirdSection from './components/ThirdSection';
+import FourthSection from './components/FourthSection';
 
 
 class App extends React.Component {
@@ -9,6 +12,9 @@ class App extends React.Component {
             <div>
                 <Menu />
                 <FirstSection />
+                <SecondSection />
+                <ThirdSection />
+                <FourthSection />
             </div>
         );
     }

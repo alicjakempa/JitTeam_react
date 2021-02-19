@@ -11,17 +11,14 @@ h1 {
     font-size: (2.5 * $primaryFontSize);
     line-height: 1.1;
     max-width: 90vw;
-    color: red;
 
     @media all and (min-width: 700px) {
         line-height: 1.2;
         max-width: 80vw;
-        color: blue;
     }
     @media all and (min-width: 960px) {
         line-height: 1.2;
         max-width: 70vw;
-        color: pink;
     }
 }
 h2 {
