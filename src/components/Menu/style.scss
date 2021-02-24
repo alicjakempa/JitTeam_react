@@ -41,7 +41,7 @@ nav {
         text-align: center;
         display: none;
     }
-    .active .item {
+    .item.active {
         display: block;
     }
 
