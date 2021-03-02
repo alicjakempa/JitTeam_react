@@ -11,10 +11,7 @@ class App extends React.Component {
         return (
             <div>
                 <Menu />
-                <FirstSection />
-                <SecondSection />
-                <ThirdSection />
-                <FourthSection />
+
             </div>
         );
     }
