@@ -1,18 +1,15 @@
 import React from 'react';
 import Menu from './components/Menu';
-import FirstSection from './components/FirstSection';
-import SecondSection from './components/SecondSection';
-import ThirdSection from './components/ThirdSection';
-import FourthSection from './components/FourthSection';
-
+import { BrowserRouter as Router } from 'react-router-dom';
+import MyRoutes from './components/main';
 
 class App extends React.Component {
     render() {
         return (
-            <div>
+            <Router>
                 <Menu />
+            </Router>
 
-            </div>
         );
     }
 }
