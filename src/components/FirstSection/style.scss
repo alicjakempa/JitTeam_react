@@ -18,10 +18,24 @@
     }
     button {
         @include primaryButton();
-        margin: 2rem auto;
+        margin: 0.5rem;
+        width: 250px;
+        font-size: 1rem;
 
         &:hover {
             background-color: rgba(0,0,0,1);
         }
+        
     }
+    .resign {
+        background-color: rgba($secondaryColor, .5);
+        color: $primaryColor;
+        &:hover {
+            background-color: rgb($secondaryColor, .8);
+        }
+    }
+    p {
+       font-weight: 700;
+    }
+
 }
